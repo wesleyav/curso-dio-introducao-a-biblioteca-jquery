@@ -13,6 +13,7 @@ function consultaCep(){
             $("#bairro").html(response.bairro);
             $("#localidade").html(response.localidade);
             $("#uf").html(response.uf);
+            $("#titulo_cep").html(" CEP: " + response.cep);
 
             //document.getElementById("logradouro").innerHTML = response.logradouro;
             //document.getElementById("bairro").innerHTML = response.bairro;
